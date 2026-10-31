@@ -1,0 +1,8 @@
+.venv/
+.env
+.env.*
+!.env.example
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+wiki_rag_ollama_v1/
