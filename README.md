@@ -37,8 +37,11 @@ Wikipedia articles. Responses may contain errors; retrieved passages
 should be checked. No formal retrieval or answer-quality evaluation
 has been completed.
 
-## Acknowledgements
-Inspired by NeuralNine's Wikipedia RAG tutorial and adapted for
-local Ollama models, HTTPS article retrieval and source inspection.
-Wikipedia content belongs to its respective contributors and is
-subject to the licensing terms on the source articles.
+## Technology & Knowledge Sources
+The application combines LlamaIndex for retrieval orchestration,
+Ollama for local model inference, and Streamlit for the interactive
+interface. Nomic embeddings support semantic search, while
+Llama 3.2 generates responses from retrieved passages.
+
+Knowledge is sourced from Wikipedia, with attribution to its
+contributors and licensing terms available on the source articles.
