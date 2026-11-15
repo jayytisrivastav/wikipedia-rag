@@ -1,8 +1,10 @@
 .venv/
-.env
-.env.*
-!.env.example
+venv/
 __pycache__/
 *.pyc
-.ipynb_checkpoints/
+.pytest_cache/
+.env
+.env.*
+wiki_faiss_index/
 wiki_rag_ollama_v1/
+evaluation_results.json

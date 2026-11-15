@@ -1,0 +1,19 @@
+
+services:
+  wikipedia-rag-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    container_name: wikipedia-rag-api
+
+    ports:
+      - "8001:8000"
+
+    environment:
+      OLLAMA_URL: http://host.docker.internal:11434
+
+    volumes:
+      - ./wiki_faiss_index:/app/wiki_faiss_index:ro
+
+    restart: unless-stopped
